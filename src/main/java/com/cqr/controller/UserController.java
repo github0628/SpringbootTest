@@ -35,7 +35,8 @@ public class UserController {
         // 处理"/users/"的POST请求，用来创建User
         // 除了@ModelAttribute绑定参数之外，还可以通过@RequestParam从页面中传递参数
         users.put(user.getId(), user);
-        return "success";
+		
+        return "successfui";
     }
 
     @RequestMapping(value="/{id}", method=RequestMethod.GET)
