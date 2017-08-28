@@ -36,7 +36,7 @@ public class UserController {
         // 除了@ModelAttribute绑定参数之外，还可以通过@RequestParam从页面中传递参数
         users.put(user.getId(), user);
 		
-        return "successfui";
+        return "successfusi";
     }
 
     @RequestMapping(value="/{id}", method=RequestMethod.GET)
